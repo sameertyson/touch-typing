@@ -1,9 +1,14 @@
 .app-con{
   background-color: #303030;
   min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 .inp-out-cons{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,4 +31,27 @@
 .acc{
   color: #efeaea;
   font-size: 34px;
+  margin: 10px;
+}
+.statistics{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-selection-con{
+  color:#fff;
+  margin: 10PX;
+}
+.menu-con{
+  color:#fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.generators{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
