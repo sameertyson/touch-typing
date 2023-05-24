@@ -1,0 +1,29 @@
+.app-con{
+  background-color: #303030;
+  min-height: 100vh;
+
+}
+.inp-out-cons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sentense{
+  width: 70%;
+  padding:20px;
+  text-align: center;
+}
+.input-bar{
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  margin-top:20px;
+}
+.falseEnter{
+  background-color: #ff4444ce;
+}
+.acc{
+  color: #efeaea;
+  font-size: 34px;
+}
